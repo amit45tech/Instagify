@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1054853059010",
+    "firebase_url": "https://instagify-8d4b4.firebaseio.com",
+    "project_id": "instagify-8d4b4",
+    "storage_bucket": "instagify-8d4b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054853059010:android:45619f31a102351285865b",
+        "android_client_info": {
+          "package_name": "com.blueberry.instagify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054853059010-ahb84erhi5h85la9p01crmaj7g9jq4ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blueberry.instagify",
+            "certificate_hash": "184f45236f0ea939bc86cc66eb827017a10026f2"
+          }
+        },
+        {
+          "client_id": "1054853059010-f0cqsgmp1i6ldpl5dt7enjvmtijsee1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEs57JAjKBiTd15k591W-A7XLtOowGzLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054853059010-f0cqsgmp1i6ldpl5dt7enjvmtijsee1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

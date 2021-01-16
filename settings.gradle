@@ -1,0 +1,3 @@
+include ':unity-adss'
+include ':app'
+rootProject.name='Instagify'

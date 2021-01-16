@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BEA5DBD3"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:background="#BEA5DBD3"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textColor="#505859"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/arrow1"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="#BEA5DBD3"
+            android:padding="2dp"
+            app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/arrow2"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="#BEA5DBD3"
+            android:padding="2dp"
+            app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24"
+            tools:ignore="VectorDrawableCompat"
+            tools:visibility="gone" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/hiddenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        tools:visibility="gone">
+
+        <Button
+            android:id="@+id/copybutton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/copybtn_bg"
+            android:text="Copy"
+            android:textColor="#FF6666"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/taglist_bg"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="50dp"
+            android:text="gfd fdfgdf dfdf dfgdf dfgdf dfgdff dfgd dfgfd fdgdf fgdf fgdf fdgdf dfgdf fgdf dfgfd dfgd dfgdf fdgd dfgd dfd fd"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
